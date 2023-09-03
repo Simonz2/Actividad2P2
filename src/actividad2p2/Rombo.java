@@ -20,7 +20,7 @@ public class Rombo {
         return 4*calcularlado();
     }
 
-    double calcularlado(){
+    private double calcularlado(){
         return Math.sqrt(Math.pow(diagonalmenor/2,2)+Math.pow(diagonalmayor/2,2));
     }
 }

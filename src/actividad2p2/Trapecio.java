@@ -21,7 +21,7 @@ public class Trapecio {
         return basemayor+basemenor+2*calcularhipotenusa();
     }
     
-    double calcularhipotenusa(){
+    private double calcularhipotenusa(){
         return Math.sqrt(Math.pow((basemayor-basemenor)/2,2)+Math.pow(altura,2));
     }
 }
